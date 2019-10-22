@@ -14,7 +14,7 @@ A list of research questions you would like to address during the project.
 * If one product has already bad review how many users give good review given that situation?
 * Are there users with repetitive behavior? Example to give a review only if the product is good.
 * Can find any correlation between the time and the grade of the review?
-* Is there any product which increase the grade of review?
+* Is there any product which increase the grade of review after the many bad reviews?  
 
 ## Dataset
 

@@ -2,6 +2,8 @@
 # Amazon food data analysis 
 
 ## Abstract
+Nowadays more and more people order food through the Amazon website. Using amazon you are able to see the existing rating of any product and after your order, you can evaluate that product. However, how representative is that evaluation to the product? How many different groups of people? If the product already has a bad evaluation how difficult is it to rate it with good?
+
 A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?
 
 ## Research questions

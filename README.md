@@ -28,6 +28,8 @@ With PCA we can maybe study different questions using the review texts:
 We can as well use the "also bought" and "also viewed" list in the metadata
 -Try to see how the recommender system works: is there a correlation between the prices, the ranking, the vendor, the product type?
 
+The users behaviour is interesting as well. We can try to classify them according to the ranking they use and try to correlate their review and the time at which they posted the review.
+
 # Dataset
 Our dataset is _Amazon product data_, which contains around $150$ millions of reviews from $1996$ $2014$ along with their metadata. The metadata contains basic informations like the product id, but also more complex information like a list of _also bought_ and _also viewed_ product that points to product related to the original one, on two different levels. This is extremely interesting to analyze, to try to make assumptions on products' relations and verify them using this list. We can also try to find relations in an unsupervised way and analyze the results. Concerning the actual reviews in the dataset, they contain all relevant information for a review: reviewer, time of the review, rating on the review, comment of the review. We will most likely use all of them to get insight on what the data tells us.
 

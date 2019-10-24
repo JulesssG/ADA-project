@@ -13,6 +13,7 @@ We can study different trends and their popularity at the product, the review or
 - How are the prices and brands or sales rank related? 
 - What can we infer about the reviewer from the helpfullness of their review?
 - Is there a correlation between the quality of the review and the time at which the review has been posted? 
+- How does the recommender system (`also bought` and `also viewed` fields) work? How much are the price, vendor or product type between recommended products correlated?
 
 With PCA we can maybe study different questions using the review texts:
 - Are there any trends in the comments
@@ -20,13 +21,8 @@ With PCA we can maybe study different questions using the review texts:
 	- To who do people buy gifts (husband, wife, children, ...)
 	- Are some categories more gifted than others and to the same group of people 
 
-We can as well use the "also bought" and "also viewed" list in the metadata
--Try to see how the recommender system works: is there a correlation between the prices, the ranking, the vendor, the product type?
-
-The users behaviour is interesting as well. We can try to classify them according to the ranking they use and try to correlate their review and the time at which they posted the review.
-
 # Dataset
-Our dataset is _Amazon product data_, which contains around 150 millions of reviews from 1996 to 2014 along with their metadata. The metadata contains basic information like the product id, but also more complex information like a list of `also bought` and `also viewed` products that points to products related to the original one, on two different levels. This is extremely interesting to analyze, we can try to make assumptions on products' relations and verify them using this list. We can also try to find relations with these fields and analyze the results. Concerning the actual reviews in the dataset, they contain all relevant information for a review: reviewer, time of the review, rating on the review, comment of the review. We will most likely use all of them to get insight on what the data tells us.
+Our dataset is _Amazon product data_, which contains around 150 millions of reviews from 1996 to 2014 along with their metadata. The metadata contains basic information like the product id, but also more complex information like a list of `also bought` and `also viewed` products that points to products related to the original one, on two different levels. This is extremely interesting to analyze, we can try to make assumptions on products' relations and verify them using this list. We can also try to find relations with these fields and analyze the results, as mentionned above. Concerning the actual reviews in the dataset, they contain all relevant information for a review: reviewer, time of the review, rating on the review, comment of the review. We will most likely use all of them to get insight on what the data tells us.
 
 ## A list of internal milestones up until project milestone 2
 Add here a sketch of your planning for the next project milestone.

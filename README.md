@@ -21,11 +21,12 @@ With PCA we can maybe study different questions using the review texts:
 	- To who do people buy gifts (husband, wife, children, ...)
 	- Are some categories more gifted than others and to the same group of people 
 
-# Dataset
+## Dataset
 Our dataset is _Amazon product data_, which contains around 150 millions of reviews from 1996 to 2014 along with their metadata. The metadata contains basic information like the product id, but also more complex information like a list of `also bought` and `also viewed` products that points to products related to the original one, on two different levels. This is extremely interesting to analyze, we can try to make assumptions on products' relations and verify them using this list. We can also try to find relations with these fields and analyze the results, as mentionned above. Concerning the actual reviews in the dataset, they contain all relevant information for a review: reviewer, time of the review, rating on the review, comment of the review. We will most likely use all of them to get insight on what the data tells us.
 
 ## A list of internal milestones up until project milestone 2
 Add here a sketch of your planning for the next project milestone.
 
-## Questions for TAa
-Add here some questions you have for us, in general or project-specific.
+## Questions for TAs
+- The Amazon dataset is named "Amazon reviews (Grocery and Gourmet Food category)" on the [provided data list](https://go.epfl.ch/ada19_datasets). However we think it'd be interesting to analyze the different categories altogether rather than only the "Grocery and Gourmet Food" one. Can we use the whole dataset? Will we still get TA support?
+- Does the whole code need to be done for Milestone 2? With visualizations and analysis? Because it seems weird to have 1 month to do the **WHOLE** analysis and 1 month to write a 4 page report from that analysis. Can we still do further analysis after milestone 2? fancier visualization? and produce further results with the analysis? We don't really understand what exactly needs to be done for Milestone 2.

@@ -8,16 +8,25 @@ On Amazon you can buy almost any product nowadays, you can see users's ratings o
 ## Research questions
 A list of research questions you would like to address during the project.
 
-We can study different trends:
-- Are some categories more trendy
+We can study different trends and their popularity at different levels:
+
+Product level :
 - Price ranges
 - Brands
+- Ranking in one category
+Review level : 
+- Helpful or not
+- Reviewer
+- Review text (see below)
 
-With PCA we can maybe study different questions using the comments:
+With PCA we can maybe study different questions using the review texts:
 - Are there any trends in the comments
 - Many people buy gifts on Amazon maybe we can extract some information about it:
 	- To who do people buy gifts (husband, wife, children, ...)
-	- Are some categories more gifted than others and to the same group of people (jewels to wives, watches to husbands)
+	- Are some categories more gifted than others and to the same group of people 
+
+We can as well use the "also bought" and "also viewed" list in the metadata
+-Try to see how the recommender system works: is there a correlation between the prices, the vendor, the product type?
 
 * Are increasing the number of reviews per year?
 * How many bad reviews we have per year?

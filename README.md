@@ -26,17 +26,8 @@ With PCA we can maybe study different questions using the review texts:
 	- Are some categories more gifted than others and to the same group of people 
 
 We can as well use the "also bought" and "also viewed" list in the metadata
--Try to see how the recommender system works: is there a correlation between the prices, the vendor, the product type?
+-Try to see how the recommender system works: is there a correlation between the prices, the ranking, the vendor, the product type?
 
-* Are increasing the number of reviews per year?
-* How many bad reviews we have per year?
-* How many reviews good  per year?
-* Are there reviewers to do always bad review to the same product?
-* Did the reviewer did always the same comment for different product?
-* If one product has already bad review how many users give good review given that situation?
-* Are there users with repetitive behavior? Example to give a review only if the product is good.
-* Can find any correlation between the time and the grade of the review?
-* Is there any product which increase the grade of review after the many bad reviews?
 
 ## Dataset
 Our Dataset is Amazon product data from Amazon which contains information about the rating of the product. Especially, it has information about the review from the user who did it to the product.  We are planning to extract as a first step insights about the review per year. We expect to see the number of review is increasing during the years and after we will focus on the rating of the review. We will try to classify the users depend on the behaviors. We expect to have some users who is actually bot (and always do bad rating) and we expect to have some users who always do rating depend on the exist rating of this product. Also, we will try to find correlation between time and grade of review. Example, maybe during the night period the majority of the coment are bad and during the morning period the majority of the comment are good.

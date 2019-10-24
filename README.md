@@ -1,7 +1,7 @@
 # Amazon food data analysis
 
 ## Abstract
-Nowadays more and more people order using Amazon. On Amazon you can see existing users's ratings of any product, this of course changes the consumer's behavior. However, how much on an impact does it have on the consumer? Are there groups of consumers, groups that always buy the same stuff? On Amazon you can also see what related products people tend to look at after looking at the one you're looking at. Again, this most likely has an impact on sales, but is it possible to quantify it?
+Nowadays Amazon's popularity grows increasingly and becomes massive, it is ubiquitous in our era of cloud services and big data. Amazon has plenty of servers, buys big succesful companies such as Twitch, its CEO is the wealthiest man of our generation. But its underpinning is of course the website Amazon. On Amazon you can buy almost any product nowadays, you can see users's ratings of any product, this of course changes the consumer's behavior. However, how much of an impact does it have on the consumer? Are there groups of consumers, groups that always buy the same stuff? On Amazon you can also see what related products people tend to look at after looking at the one you're looking at. Again, this most likely has an impact on sales, but is it possible to quantify it?
 
 ## Research questions
 A list of research questions you would like to address during the project.

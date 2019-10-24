@@ -6,18 +6,13 @@ Nowadays Amazon's popularity grows increasingly and becomes massive, it is ubiqu
 On Amazon you can buy almost any product nowadays, you can see users's ratings of any product, this of course changes the consumer's behavior. However, how much of an impact does it have on the consumer? Are there groups of consumers, groups that always buy the same stuff? On Amazon you can also see what related products people tend to look at after looking at the one you're looking at. Again, this most likely has an impact on sales, but is it possible to quantify it?
 
 ## Research questions
-A list of research questions you would like to address during the project.
+A list of research questions we would like to address during the project.
 
-We can study different trends and their popularity at different levels:
-
-Product level :
-- Price ranges
-- Brands
-- Ranking in one category
-Review level : 
-- Helpful or not
-- Reviewer
-- Review text (see below)
+We can study different trends and their popularity at the product, the review or the reviewer level:
+- What does the products' price distribution tell us?
+- How are the prices and brands or sales rank related? 
+- What can we infer about the reviewer from the helpfullness of their review?
+- Is there a correlation between the quality of the review and the time at which the review has been posted? 
 
 With PCA we can maybe study different questions using the review texts:
 - Are there any trends in the comments

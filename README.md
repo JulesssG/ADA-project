@@ -7,6 +7,14 @@ On Amazon you can buy almost any product nowadays, you can see users's ratings o
 
 ## Research questions
 A list of research questions you would like to address during the project.
+- Are there any trends among the different categories?
+
+With PCA we can maybe study different questions:
+- Are there any trends in the comments
+- Many people buy gifts on Amazon maybe we can extract some information about it:
+	- To who do people buy gifts (husband, wife, children, ...)
+	- Are some categories more gifted than others and to the same group of people (jewels to wives, watches to husbands)
+
 * Are increasing the number of reviews per year?
 * How many bad reviews we have per year?
 * How many reviews good  per year?

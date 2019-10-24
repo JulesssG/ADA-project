@@ -9,9 +9,9 @@ On Amazon you can buy almost any product nowadays, you can see users's ratings o
 A list of research questions you would like to address during the project.
 
 We can study different trends:
-	- Are some categories more trendy
-	- Price ranges
-	- Brands
+- Are some categories more trendy
+- Price ranges
+- Brands
 
 With PCA we can maybe study different questions using the comments:
 - Are there any trends in the comments

@@ -30,10 +30,8 @@ We can as well use the "also bought" and "also viewed" list in the metadata
 
 The users behaviour is interesting as well. We can try to classify them according to the ranking they use and try to correlate their review and the time at which they posted the review.
 
-## Dataset
-Our Dataset is Amazon product data from Amazon which contains information about the rating of the product. Especially, it has information about the review from the user who did it to the product.  We are planning to extract as a first step insights about the review per year. We expect to see the number of review is increasing during the years and after we will focus on the rating of the review. We will try to classify the users depend on the behaviors. We expect to have some users who is actually bot (and always do bad rating) and we expect to have some users who always do rating depend on the exist rating of this product. Also, we will try to find correlation between time and grade of review. Example, maybe during the night period the majority of the coment are bad and during the morning period the majority of the comment are good.
-
-List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
+# Dataset
+Our dataset is _Amazon product data_, which contains around $150$ millions of reviews from $1996$ $2014$ along with their metadata. The metadata contains basic informations like the product id, but also more complex information like a list of _also bought_ and _also viewed_ product that points to product related to the original one, on two different levels. This is extremely interesting to analyse, to try to make assumptions on products' relations and verify them using this list. We can also just make try finding relations in an unsupervised way and analysing the results. All of that to say that this is a great plus to the dataset set. Concerning the actual reviews in the dataset, they containing all relevant information for a review: reviewer, time of the review, rating on the review, comment of the review. We will most likely use all of them to get insight on what the data tells us.
 
 ## A list of internal milestones up until project milestone 2
 Add here a sketch of your planning for the next project milestone.

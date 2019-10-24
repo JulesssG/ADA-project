@@ -28,6 +28,7 @@ With PCA we can maybe study different questions using the review texts:
 We can as well use the "also bought" and "also viewed" list in the metadata
 -Try to see how the recommender system works: is there a correlation between the prices, the ranking, the vendor, the product type?
 
+The users behaviour is interesting as well. We can try to classify them according to the ranking they use and try to correlate their review and the time at which they posted the review.
 
 ## Dataset
 Our Dataset is Amazon product data from Amazon which contains information about the rating of the product. Especially, it has information about the review from the user who did it to the product.  We are planning to extract as a first step insights about the review per year. We expect to see the number of review is increasing during the years and after we will focus on the rating of the review. We will try to classify the users depend on the behaviors. We expect to have some users who is actually bot (and always do bad rating) and we expect to have some users who always do rating depend on the exist rating of this product. Also, we will try to find correlation between time and grade of review. Example, maybe during the night period the majority of the coment are bad and during the morning period the majority of the comment are good.

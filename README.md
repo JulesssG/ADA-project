@@ -9,12 +9,14 @@ On Amazon you can buy almost any product nowadays, including food. Indeed you ca
 Since our purpose is to explore how trending topics such as vegetarianism, veganism, organic food and healthy food are characterised on Amazon and how the latter directly or indirectly influences buyers towards the formers we will ask us :
 - How does the recommender system (`also bought` and `also viewed` fields) work?
 - With PCA we can ask ourselves if there are any trends in the comments.
+- What buying habits do users have ?
+- How did buying habits change throughout the years? Since veganism is a recent topic, how does it translate through the Amazon dataset?
+- How do buying habits change throughout the year ? How do seasons affect it ? Do people tend to eat healthier at the dawn of the summer ? Do holidays such as thanksgiving have an influence ?
 
 On the other hand there will be more general questions that will help us to understand how the data behaves :
 - How often do people buy groceries online?
 - What does the products' price distribution tell us? (At brand, product or category level)
 - What is the correlation between prices, brands or sales rank?
-- Is there a correlation between the quality of the review and the time at which the review has been posted? 
 
 ## Dataset
 Our dataset is _Amazon product data_, which contains around 150 millions of reviews from 1996 to 2014 along with their metadata. The metadata contains basic information like the product id, but also more complex information like a list of `also bought` and `also viewed` products that points to products related to the original one, on two different levels. This is extremely interesting to analyze, we can try to make assumptions on products' relations and verify them using this list. We can also try to find relations with these fields and analyze the results, as mentionned above. Concerning the actual reviews in the dataset, they contain all relevant information for a review: reviewer, time of the review, rating on the review, comment of the review. We will most likely use all of them to get insight on what the data tells us.

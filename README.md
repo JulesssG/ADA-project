@@ -33,7 +33,9 @@ However, we thus don't directly have access to what users bought. So we must be 
 
 ## A list of internal milestones up until project milestone 2
 - For 3rd November: Send request to have the metadata + reviews of the "Grocery and Gourmet Food" category data from the 2018 dataset, and decide, depending on the answer, if we use the 2014 dataset or the subset of the 2018 data that's available to download.
-- For 10th November: Preprocessing + parsing of the data to load it into Pandas and extract basic statistics, get used with the architecture in order to extract more complex information later on
+- For 10th November: Preprocessing + parsing of the data to load it into Pandas and extract basic statistics, get used with the architecture in order to extract more complex information later on.
+- For 17th November: Plots and visualizations to understand how our data looks like and how we can extract meaningful information. Understand what information we'll need to answer our questions.
+- For 25th November: Finish extracting information to be able to answer our questions.
 
 ## Questions for TAs
 - The dataset linked on the google spreadsheet has data from May 1996 - July 2014 but there is an updated one that goes until 2018 (https://nijianmo.github.io/amazon/index.html) and the number of reviews goes from 150'000 to 5'000'000. It seems like this extended dataset would be much better for our analysis. We would prefer using it if we can get it, and since it should simply be the same dataset but much bigger, we think the TAs could still help us. Can we use this dataset instead?

@@ -32,7 +32,7 @@ Concerning the actual reviews in the dataset, they contain all relevant informat
 However, we thus don't directly have access to what users bought. So we must be careful as we can't analyze what people purchased but only what they are reviewing. Also, the metadata is per item so it's not personalized by users.
 
 ## A list of internal milestones up until project milestone 2
-- For 3rd November: Send request to have the metadata + reviews of the "Grocery and Gourmet Food" category data from the 2018 dataset, and decide, depending on the answer, if we use the 2014 dataset or the subset of the 2018 data that's available to download.
+- For 3rd November: Decide with TAs if we use the 2018 dataset or 2014 and get in touch with the data. Put it on the cluster and start getting comfortable with it.
 - For 10th November: Preprocessing + parsing of the data to load it into Pandas and extract basic statistics, get used with the architecture in order to extract more complex information later on.
 - For 17th November: Plots and visualizations to understand how our data looks like and how we can extract meaningful information. Understand what information we'll need to answer our questions.
 - For 25th November: Finish extracting information to be able to answer our questions.

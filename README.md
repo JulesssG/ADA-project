@@ -6,13 +6,9 @@ Nowadays Amazon's popularity grows increasingly and becomes massive, it is ubiqu
 On Amazon you can buy almost any product nowadays, including food. Indeed you can buy your groceries on Amazon and you can see users's ratings of the food item you're looking at. This of course changes the consumer's behavior. However, how much of an impact does it have on the consumer? Does Amazon favor some diets over others? Are users's consumption affected over time or do they keep buying the same stuff? On Amazon you can also see what related products people tend to look at after looking at the one you're looking at. Again, this most likely has an impact on sales, but is it possible to quantify it?
 
 ## Research questions
-Since our purpose is to explore how trending topics such as vegetarianism, veganism, organic food and healthy food are caracterised on Amazon and how the latter directly or indirectly influences buyers towards the formers we will ask us :
-- How does the recommender system (`also bought` and `also viewed` fields) work? How much are the price, vendor or product type between recommended products correlated?
-- With PCA we can maybe study different questions using the review texts:
-	- Are there any trends in the comments
-	- Many people buy gifts on Amazon maybe we can extract some information about it:
-		- To who do people buy gifts (husband, wife, children, ...)
-		- Are some categories more gifted than others and to the same group of people 
+Since our purpose is to explore how trending topics such as vegetarianism, veganism, organic food and healthy food are characterised on Amazon and how the latter directly or indirectly influences buyers towards the formers we will ask us :
+- How does the recommender system (`also bought` and `also viewed` fields) work?
+- With PCA we can ask ourselves if there are any trends in the comments.
 
 On the other hand there will be more general questions that will help us to understand how the data behaves :
 - How often do people buy groceries online?

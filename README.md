@@ -6,22 +6,19 @@ Nowadays Amazon's popularity grows increasingly and becomes massive, it is ubiqu
 On Amazon you can buy almost any product nowadays, including food. Indeed you can buy your groceries on Amazon and you can see users's ratings of the food item you're looking at. This of course changes the consumer's behavior. However, how much of an impact does it have on the consumer? Does Amazon favor some diets over others? Are users's consumption affected over time or do they keep buying the same stuff? On Amazon you can also see what related products people tend to look at after looking at the one you're looking at. Again, this most likely has an impact on sales, but is it possible to quantify it?
 
 ## Research questions
-A list of research questions we would like to address during the project.
-
-- How often do people buy groceries online?
-- What does the products' price distribution tell us? (At brand, product or category level)
-We can study different trends and their popularity at the product, the review or the reviewer level:
-- What does the products' price distribution tell us?
-- How are the prices and brands or sales rank related? 
-- What can we infer about the reviewer from the helpfullness of their review?
-- Is there a correlation between the quality of the review and the time at which the review has been posted? 
+Since our purpose is to explore how trending topics such as vegetarianism, veganism, organic food and healthy food are caracterised on Amazon and how the latter directly or indirectly influences buyers towards the formers we will ask us :
 - How does the recommender system (`also bought` and `also viewed` fields) work? How much are the price, vendor or product type between recommended products correlated?
-
 With PCA we can maybe study different questions using the review texts:
 - Are there any trends in the comments
 - Many people buy gifts on Amazon maybe we can extract some information about it:
 	- To who do people buy gifts (husband, wife, children, ...)
 	- Are some categories more gifted than others and to the same group of people 
+
+On the other hand there will be more general questions that will help us to understand how the data behaves :
+- How often do people buy groceries online?
+- What does the products' price distribution tell us? (At brand, product or category level)
+- What is the correlation between prices, brands or sales rank?
+- Is there a correlation between the quality of the review and the time at which the review has been posted? 
 
 ## Dataset
 Our dataset is _Amazon product data_, which contains around 150 millions of reviews from 1996 to 2014 along with their metadata. The metadata contains basic information like the product id, but also more complex information like a list of `also bought` and `also viewed` products that points to products related to the original one, on two different levels. This is extremely interesting to analyze, we can try to make assumptions on products' relations and verify them using this list. We can also try to find relations with these fields and analyze the results, as mentionned above. Concerning the actual reviews in the dataset, they contain all relevant information for a review: reviewer, time of the review, rating on the review, comment of the review. We will most likely use all of them to get insight on what the data tells us.

@@ -9,7 +9,7 @@ On Amazon you can buy almost any product nowadays, including food. Indeed you ca
 The key idea would be to see how user's consumption behaves over time: how it follows trends, how seasons affect it or even how the time passed on Amazon influences it. And since our purpose is to explore how topics such as vegetarianism, veganism, organic food, holiday food, seasonal food and healthy food are characterised on Amazon and how the latter directly or indirectly influences buyers towards the formers we will ask us:
 - What buying habits do users have ?
 - How does the recommender system (`also bought` and `also viewed` fields) work?
-  - Does it favor similar items, popular items or items that the user has already bought?
+  - Does it favor similar items or popular items?
 - With PCA we can ask ourselves if there are any trends in the comments.
 - Do people's behavior change over time as they use Amazon? :
   - Do they buy more?

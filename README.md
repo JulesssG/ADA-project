@@ -8,11 +8,11 @@ On Amazon you can buy almost any product nowadays, including food. Indeed you ca
 ## Research questions
 Since our purpose is to explore how trending topics such as vegetarianism, veganism, organic food and healthy food are caracterised on Amazon and how the latter directly or indirectly influences buyers towards the formers we will ask us :
 - How does the recommender system (`also bought` and `also viewed` fields) work? How much are the price, vendor or product type between recommended products correlated?
-With PCA we can maybe study different questions using the review texts:
-- Are there any trends in the comments
-- Many people buy gifts on Amazon maybe we can extract some information about it:
-	- To who do people buy gifts (husband, wife, children, ...)
-	- Are some categories more gifted than others and to the same group of people 
+-	With PCA we can maybe study different questions using the review texts:
+		- Are there any trends in the comments
+		- Many people buy gifts on Amazon maybe we can extract some information about it:
+			- To who do people buy gifts (husband, wife, children, ...)
+			- Are some categories more gifted than others and to the same group of people 
 
 On the other hand there will be more general questions that will help us to understand how the data behaves :
 - How often do people buy groceries online?

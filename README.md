@@ -32,7 +32,7 @@ Concerning the actual reviews in the dataset, they contain all relevant informat
 However, we thus don't directly have access to what users bought. So we must be careful as we can't analyze what people purchased but only what they are reviewing. Also, the metadata is per item so it's not personalized by users.
 
 ## A list of internal milestones up until project milestone 2
-- For 3rd November: Send request to have the metadata + reviews data from the 2018 dataset, and decide, depending on the answer, if we use the 2014 dataset or the subset of the 2018 data that's available to download.
+- For 3rd November: Send request to have the metadata + reviews of the "Grocery and Gourmet Food" category data from the 2018 dataset, and decide, depending on the answer, if we use the 2014 dataset or the subset of the 2018 data that's available to download.
 
 ## Questions for TAs
 - The dataset linked on the google spreadsheet has data from May 1996 - July 2014 but there is an updated one that goes until 2018 (https://nijianmo.github.io/amazon/index.html) and the number of reviews goes from 150'000 to 5'000'000. It seems like this extended dataset would be much better for our analysis. We would prefer using it if we can get it, and since it should simply be the same dataset but much bigger, we think the TAs could still help us. Can we use this dataset instead?

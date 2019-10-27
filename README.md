@@ -6,7 +6,7 @@ Nowadays Amazon's popularity grows increasingly and becomes massive, it is ubiqu
 On Amazon you can buy almost any product nowadays, including food. Indeed you can buy your groceries on Amazon and you can see users's ratings of the food item you're looking at. This of course changes the consumer's behavior. However, how much of an impact does it have on the consumer? Does Amazon favor some diets over others? Are users's consumption affected over time or do they keep buying the same stuff? On Amazon you can also see what related products people tend to look at after looking at the one you're looking at. Again, this most likely has an impact on sales, but is it possible to quantify it?
 
 ## Research questions
-Since our purpose is to explore how trending topics such as vegetarianism, veganism, organic food and healthy food are characterised on Amazon and how the latter directly or indirectly influences buyers towards the formers we will ask us. The key idea would be to see how time changes users's consumption, wether it be season of the year or time passed on Amazon :
+Since our purpose is to explore how trending topics such as vegetarianism, veganism, organic food and healthy food are characterised on Amazon and how the latter directly or indirectly influences buyers towards the formers we will ask us. The key idea would be to see how user's consumption behaves over time: how it follows the aformentionned trends, how seasons affect it or even how the time passed on Amazon influences it.
 - How does the recommender system (`also bought` and `also viewed` fields) work?
 - With PCA we can ask ourselves if there are any trends in the comments.
 - Do people's behavior change over time as they use Amazon? :

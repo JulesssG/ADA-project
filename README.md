@@ -23,7 +23,7 @@ On the other hand there will be more general questions that will help us to unde
 - What is the correlation between prices, brands or sales rank?
 
 ## Dataset
-Our dataset is _Amazon product data 2018_, more specifically the "Grocery and Gourmet Food", which contains around 5'074'160 millions of reviews from May 1996 to October 2018 along with the food items's metadata.
+Our dataset is _Amazon product data 2018_ (https://nijianmo.github.io/amazon/index.html, i.e. one of the proposed dataset but updated), more specifically the "Grocery and Gourmet Food", which contains around 5'074'160 millions of reviews from May 1996 to October 2018 along with the food items's metadata.
 
 The metadata contains basic information like the product id, but also more complex information like a list of `also bought` and `also viewed` products that points to products related to the original one, on two different levels. It also contains the price, the brand and the categories for example.
 
@@ -32,7 +32,10 @@ Concerning the actual reviews in the dataset, they contain all relevant informat
 However, we thus don't directly have access to what users bought. So we must be careful as we can't analyze what people purchased but only what they are reviewing. Also, the metadata is per item so it's not personalized by users.
 
 ## A list of internal milestones up until project milestone 2
-Add here a sketch of your planning for the next project milestone.
+- For 3rd November: Decide with TAs if we use the 2018 dataset or 2014 and get in touch with the data. Put it on the cluster and start getting comfortable with it.
+- For 10th November: Preprocessing + parsing of the data to load it into Pandas and extract basic statistics, get used with the architecture in order to extract more complex information later on.
+- For 17th November: Plots and visualizations to understand how our data looks like and how we can extract meaningful information. Understand what information we'll need to answer our questions.
+- For 25th November: Finish extracting information to be able to answer our questions.
 
 ## Questions for TAs
 - The dataset linked on the google spreadsheet has data from May 1996 - July 2014 but there is an updated one that goes until 2018 (https://nijianmo.github.io/amazon/index.html) and the number of reviews goes from 150'000 to 5'000'000. It seems like this extended dataset would be much better for our analysis. We would prefer using it if we can get it, and since it should simply be the same dataset but much bigger, we think the TAs could still help us. Can we use this dataset instead?

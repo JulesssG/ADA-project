@@ -25,7 +25,7 @@ On the other hand there will be more general questions that will help us to unde
 ## Dataset
 Our dataset is _Amazon product data 2018_, more specifically the "Grocery and Gourmet Food", which contains around 5'074'160 millions of reviews from May 1996 to October 2018 along with the food items's metadata.
 
-The metadata contains basic information like the product id, but also more complex information like a list of `also bought` and `also viewed` products that points to products related to the original one, on two different levels. This is extremely interesting to analyze, we can try to make assumptions on products' relations and verify them using this list. We can also try to find relations with these fields and analyze the results, as mentionned above.
+The metadata contains basic information like the product id, but also more complex information like a list of `also bought` and `also viewed` products that points to products related to the original one, on two different levels. 
 
 Concerning the actual reviews in the dataset, they contain all relevant information for a review: reviewer, time of the review, rating on the review, comment of the review. We will most likely use all of them to get insight on what the data tells us.
 

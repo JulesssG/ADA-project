@@ -27,7 +27,7 @@ Our dataset is _Amazon product data 2018_, more specifically the "Grocery and Go
 
 The metadata contains basic information like the product id, but also more complex information like a list of `also bought` and `also viewed` products that points to products related to the original one, on two different levels. It also contains the price, the brand and the categories for example.
 
-Concerning the actual reviews in the dataset, they contain all relevant information for a review: reviewer, time of the review, rating on the review, comment of the review. We will most likely use all of them to get insight on what the data tells us.
+Concerning the actual reviews in the dataset, they contain all relevant information for a review: reviewer, time of the review, rating on the review, comment of the review.
 
 However, we thus don't directly have access to what users bought. So we must be careful as we can't analyze what people purchased but only what they are reviewing. Also, the metadata is per item so it's not personalized by users.
 

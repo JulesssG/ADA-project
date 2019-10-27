@@ -8,6 +8,8 @@ On Amazon you can buy almost any product nowadays, you can see users's ratings o
 ## Research questions
 A list of research questions we would like to address during the project.
 
+- How often do people buy groceries online?
+- What does the products' price distribution tell us? (At brand, product or category level)
 We can study different trends and their popularity at the product, the review or the reviewer level:
 - What does the products' price distribution tell us?
 - How are the prices and brands or sales rank related? 

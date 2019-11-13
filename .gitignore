@@ -13,6 +13,7 @@ __pycache__/
 
 # Data
 data/
+processed-data/
 
 # Temporary files
 temp/

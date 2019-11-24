@@ -7,20 +7,10 @@ On Amazon you can buy almost any product nowadays, including food. Indeed you ca
 
 ## Research questions
 The key idea would be to see how user's consumption behaves over time: how it follows trends, how seasons affect it or even how the time passed on Amazon influences it. And since our purpose is to explore how topics such as vegetarianism, veganism, organic food, holiday food, seasonal food and healthy food are characterised on Amazon and how the latter directly or indirectly influences buyers towards the formers we will ask us:
-- What buying habits do users have ?
-- How does the recommender system (`also bought` and `also viewed` fields) work?
-  - Does it favor similar items or popular items?
-- With PCA we can ask ourselves if there are any trends in the comments.
-- Do people's behavior change over time as they use Amazon? :
-  - Do they buy more?
-  - Do they change their consumption (more healthy, more organic)?
-- How did buying habits change throughout the years? Since veganism is a recent topic, how does it translate through the Amazon dataset?
-- How do buying habits change throughout the year ? How do seasons affect it ? Do people tend to eat healthier at the dawn of the summer ? Do holidays such as thanksgiving have an influence ?
-
-On the other hand there will be more general questions that will help us to understand how the data behaves :
-- How often do people buy groceries online?
-- What does the products' price distribution tell us? (At brand, product or category level)
-- What is the correlation between prices, brands or sales rank?
+- How is the data distributed? In order to answer this question we will analyse the following distributions : number of stars per review, number of upvotes per review, review length, number of review per year and per month etc.
+- How did buying habits change throughout the years? Since veganism is a recent topic, how does it translate through the Amazon dataset ?
+- How do buying habits change throughout the year ? Do holidays such as Thanksgiving, Christmas or Halloween have an influence ? Are there feasts, such as Mother's day or Valentine's Day that stick out ?
+- Do special events such as the end of the world in 2012 or the release of a movie give rise to some products ?
 
 ## Dataset
 Our dataset is _Amazon product data 2018_ (https://nijianmo.github.io/amazon/index.html, i.e. one of the proposed dataset but updated), more specifically the "Grocery and Gourmet Food", which contains around 5'074'160 millions of reviews from May 1996 to October 2018 along with the food items's metadata.
@@ -31,12 +21,4 @@ Concerning the actual reviews in the dataset, they contain all relevant informat
 
 However, we thus don't directly have access to what users bought. So we must be careful as we can't analyze what people purchased but only what they are reviewing. Also, the metadata is per item so it's not personalized by users.
 
-## A list of internal milestones up until project milestone 2
-- For 3rd November: Decide with TAs if we use the 2018 dataset or 2014 and get in touch with the data. Put it on the cluster and start getting comfortable with it.
-- For 10th November: Preprocessing + parsing of the data to load it into Pandas and extract basic statistics, get used with the architecture in order to extract more complex information later on.
-- For 17th November: Plots and visualizations to understand how our data looks like and how we can extract meaningful information. Understand what information we'll need to answer our questions.
-- For 25th November: Finish extracting information to be able to answer our questions.
-
 ## Questions for TAs
-- The dataset linked on the google spreadsheet has data from May 1996 - July 2014 but there is an updated one that goes until 2018 (https://nijianmo.github.io/amazon/index.html) and the number of reviews goes from 150'000 to 5'000'000. It seems like this extended dataset would be much better for our analysis. We would prefer using it if we can get it, and since it should simply be the same dataset but much bigger, we think the TAs could still help us. Can we use this dataset instead?
-- Does the whole code need to be done for Milestone 2? With visualizations and analysis? Because it seems weird to have 1 month to do the **WHOLE** analysis and 1 month to write a 4 page report from that analysis. Can we still do further analysis after milestone 2? fancier visualization? and produce further results with the analysis? We don't really understand what exactly needs to be done for Milestone 2.

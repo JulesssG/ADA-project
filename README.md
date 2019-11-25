@@ -6,10 +6,10 @@ Nowadays Amazon's popularity grows increasingly and becomes massive, it is ubiqu
 On Amazon you can buy almost any product nowadays, including food. Indeed you can buy your groceries on Amazon and you can see users's ratings of the food item you're looking at. This of course changes the consumer's behavior. However, how much of an impact does it have on the consumer? Does Amazon favor some diets over others? Are users's consumption affected over time or do they keep buying the same stuff? On Amazon you can also see what related products people tend to look at after looking at the one you're looking at. Again, this most likely has an impact on sales, but is it possible to quantify it?
 
 ## Research questions
-The key idea would be to see how user's consumption behaves over time: how it follows trends, how seasons affect it or even how the time passed on Amazon influences it. And since our purpose is to explore how topics such as vegetarianism, veganism, organic food, holiday food, seasonal food and healthy food are characterised on Amazon and how the latter directly or indirectly influences buyers towards the formers we will ask us:
-- How is the data distributed? In order to answer this question we will analyse the following distributions : number of stars per review, number of upvotes per review, review length, number of review per year and per month etc.
-- How did buying habits change throughout the years? Since veganism is a recent topic, how does it translate through the Amazon dataset ?
-- How do buying habits change throughout the year ? Do holidays such as Thanksgiving, Christmas or Halloween have an influence ? Are there feasts, such as Mother's day or Valentine's Day that stick out ?
+The key idea would be to see how user's consumption behaves over time: how it follows trends, how seasons or events affect it. Thus, our purpose is to explore how topics, such as vegetarianism and veganism, and events are characterised on Amazon. To do this we will ask us: 
+- How do buying habits change throughout the year? Do holidays such as Thanksgiving, Christmas or Halloween have an influence? Are there feasts, such as Mother's day or Valentine's Day that stick out ?
+- How events impact the popularity of products? Can we get insights about what people feel and desire during an event from the type of products that are popular?
+- How did buying habits change throughout the years? Since vegetarianism and veganism get more interest these days, how does it translate through the Amazon dataset ?
 - Do special events such as the end of the world in 2012 or the release of a movie give rise to some products ?
 
 ## Dataset
@@ -20,5 +20,3 @@ The metadata contains basic information like the product id, but also more compl
 Concerning the actual reviews in the dataset, they contain all relevant information for a review: reviewer, time of the review, rating on the review, comment of the review.
 
 However, we thus don't directly have access to what users bought. So we must be careful as we can't analyze what people purchased but only what they are reviewing. Also, the metadata is per item so it's not personalized by users.
-
-## Questions for TAs

@@ -13,7 +13,7 @@ The key idea would be to see how user's consumption behaves over time: how it fo
 - Do special events such as the end of the world in 2012 or the release of a movie give rise to some products ?
 
 ## Dataset
-Our dataset is _Amazon product data 2018_ (https://nijianmo.github.io/amazon/index.html, i.e. one of the proposed dataset but updated), more specifically the "Grocery and Gourmet Food", which contains around 5'074'160 millions of reviews from May 1996 to October 2018 along with the food items's metadata.
+Our dataset is _Amazon product data 2018_ (https://nijianmo.github.io/amazon/index.html, i.e. one of the proposed dataset but updated), more specifically the "Grocery and Gourmet Food", which contains around 5'074'160 millions of reviews from May 1996 to October 2018 along with the food items's metadata. Reviews in the dataset are from USA.
 
 The metadata contains basic information like the product id, but also more complex information like a list of `also bought` and `also viewed` products that points to products related to the original one, on two different levels. It also contains the price, the brand and the categories for example.
 

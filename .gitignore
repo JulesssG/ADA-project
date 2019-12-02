@@ -18,5 +18,8 @@ processed-data/
 # Temporary files
 temp/
 
+# To label username
+to-label/.name
+
 # Data story website
 Data-Story/

@@ -4,11 +4,21 @@ import sys
 
 users = ['christina', 'flo', 'jules', 'lucien']
 
-user = "Write your name here!"
+try:
+    with open('./to-label/.name', 'r') as f:
+        user = f.readline()
+except FileNotFoundError:
+    user = ""
 
-if user not in users:
-    print("You must tell me your name before labelling !")
-    sys.exit()
+while user not in users:
+    print(f"- What is your name? {users} ", end="", flush=True)
+    user = sys.stdin.readline()[:-1] # Remove \n
+
+    if user not in users:
+        print("Give a name that's in the array!")
+    else:
+        with open('./to-label/.name', 'w') as f:
+            f.write(user)
 
 DATA_FILE = f"./to-label/to-label-{user}.csv"
 

@@ -49,11 +49,12 @@ def fill_interactive(title, description):
     print(f"{color.UNDERLINE}{color.BOLD}{color.YELLOW}Title{color.END}: {title}\n")
     print(f"{color.UNDERLINE}{color.BOLD}{color.YELLOW}Description{color.END}: {description}\n")
 
-    healthy = readchar_stdin("- Healthy?")
+    healthy = readchar_stdin("- Healthy/natural?")
     veg = readchar_stdin("- Vegetarian/vegan?")
+    local = readchar_stdin("- Local?")
     sport = readchar_stdin("- Sport/productivity?")
 
-    about_country = readchar_stdin("- Any country")
+    about_country = readchar_stdin("- Any country?")
     country = None
 
     if about_country:
@@ -62,13 +63,13 @@ def fill_interactive(title, description):
 
     print("\n")
 
-    return healthy, veg, sport, country
+    return healthy, veg, local, sport, country
 
 
-data = pd.read_csv(DATA_FILE, header=None, names=["asin", "title", "description", "healthy", "vegetarian/vegan", "sport/productivity", "country"])
+data = pd.read_csv(DATA_FILE, header=None, names=["asin", "title", "description", "healthy/natural", "vegetarian/vegan", "local", "sport/productivity", "country"])
 
 try:
-    to_label = data[data[["healthy", "vegetarian/vegan", "sport/productivity"]].isnull().any(axis=1)]
+    to_label = data[data[["healthy/natural", "vegetarian/vegan", "local", "sport/productivity"]].isnull().any(axis=1)]
 
     print(f"{color.BOLD}{color.GREEN}Welcome back, {user} !")
     print(f"There are {len(to_label.index)} more products to label{color.END}\n")
@@ -77,10 +78,11 @@ try:
         title = data.loc[i, 'title']
         description = data.loc[i, 'description']
 
-        healthy, veg, sport, country = fill_interactive(title, description)
+        healthy, veg, local, sport, country = fill_interactive(title, description)
 
-        data.loc[i, 'healthy'] = healthy
+        data.loc[i, 'healthy/natural'] = healthy
         data.loc[i, 'vegetarian/vegan'] = veg
+        data.loc[i, 'local'] = local
         data.loc[i, 'sport/productivity'] = sport
         data.loc[i, 'country'] = country
 

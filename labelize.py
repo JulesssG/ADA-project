@@ -2,25 +2,7 @@ import pandas as pd
 from readchar.readchar_linux import readchar
 import sys
 
-users = ['christina', 'flo', 'jules', 'lucien']
-
-try:
-    with open('./to-label/.name', 'r') as f:
-        user = f.readline()
-except FileNotFoundError:
-    user = ""
-
-while user not in users:
-    print(f"- What is your name? {users} ", end="", flush=True)
-    user = sys.stdin.readline()[:-1] # Remove \n
-
-    if user not in users:
-        print("Give a name that's in the array!")
-    else:
-        with open('./to-label/.name', 'w') as f:
-            f.write(user)
-
-DATA_FILE = f"./to-label/to-label-{user}.csv"
+DATA_FILE = f"./to-label/to-label-2.csv"
 
 class color:
    PURPLE = '\033[95m'
@@ -52,7 +34,11 @@ def readchar_stdin(prompt):
         if char not in answers:
             print(f"You must write a character in {answers}!")
 
-    return char == 'y'
+    if char == 'y':
+        print(f"- Why {prompt} ", end="", flush=True)
+        return sys.stdin.readline()[:-1]
+    else:
+        return "None"
 
 
 def fill_interactive(title, description):
@@ -63,13 +49,7 @@ def fill_interactive(title, description):
     veg = readchar_stdin("- Vegetarian/vegan?")
     local = readchar_stdin("- Local?")
     sport = readchar_stdin("- Sport/productivity?")
-
-    about_country = readchar_stdin("- Any country?")
-    country = None
-
-    if about_country:
-        print("- What countries? ", end="", flush=True)
-        country = sys.stdin.readline()[:-1] # Remove \n
+    country = readchar_stdin("- Any country?")
 
     print("\n")
 
@@ -81,7 +61,7 @@ data = pd.read_csv(DATA_FILE, header=None, names=["asin", "title", "description"
 try:
     to_label = data[data[["healthy/natural", "vegetarian/vegan", "local", "sport/productivity"]].isnull().any(axis=1)]
 
-    print(f"{color.BOLD}{color.GREEN}Welcome back, {user} !")
+    print(f"{color.BOLD}{color.GREEN}Welcome back, Lulu !")
     print(f"There are {len(to_label.index)} more products to label{color.END}\n")
 
     for i in to_label.index:

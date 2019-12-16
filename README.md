@@ -24,21 +24,21 @@ However, we thus don't directly have access to what users bought. So we must be 
 ## Contributions
 - Christina Manto:
 - Florian Ravasi: 
-  1. Causal impact
-  2. Topic extraction
-  3. Word to vec
-  4. NLTK, lemmatization
-  5. Textual description and results analysis
+  - Causal impact
+  - Topic extraction
+  - Word to vec
+  - NLTK, lemmatization
+  - Textual description and results analysis
 - Jules Gottraux:
-  1. Popular products extraction from time series
-  2. Word to vec
-  3. NLTK, lemmatization
-  4. LDA
-  5. Textual description and results analysis
+  - Popular products extraction from time series
+  - Word to vec
+  - NLTK, lemmatization
+  - LDA
+  - Textual description and results analysis
 - Lucien Iseli:
-  1. Presentation of dataset and pre-processing
-  2. Feature distributions analysis
-  3. Food trends and countries
-  4. Textual description and results analysis
-  5. MadMax analysis
-  6. Website and graphs
+  - Presentation of dataset and pre-processing
+  - Feature distributions analysis
+  - Food trends and countries
+  - Textual description and results analysis
+  - MadMax analysis
+  - Website and graphs

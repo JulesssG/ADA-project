@@ -20,3 +20,22 @@ The metadata contains basic information like the product id, but also more compl
 Concerning the actual reviews in the dataset, they contain all relevant information for a review: reviewer, time of the review, rating on the review, comment of the review.
 
 However, we thus don't directly have access to what users bought. So we must be careful as we can't analyze what people purchased but only what they are reviewing. Also, the metadata is per item so it's not personalized by users.
+
+## Contributions
+- Christina Manto:
+- Florian Ravasi: 
+  1. Causal impact
+  2. Topic extraction
+  3. Word to vec
+  4. NLTK, lemmatization
+- Jules Gottraux:
+  1. Popular products extraction from time series
+  2. Word to vec
+  3. NLTK, lemmatization
+  4. LDA
+- Lucien Iseli:
+  1. Presentation of dataset and pre-processing
+  2. Feature distributions analysis
+  3. Food trends and countries
+  4. MadMax analysis
+  5. Website and graphs

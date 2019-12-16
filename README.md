@@ -28,14 +28,17 @@ However, we thus don't directly have access to what users bought. So we must be 
   2. Topic extraction
   3. Word to vec
   4. NLTK, lemmatization
+  5. Textual description and results analysis
 - Jules Gottraux:
   1. Popular products extraction from time series
   2. Word to vec
   3. NLTK, lemmatization
   4. LDA
+  5. Textual description and results analysis
 - Lucien Iseli:
   1. Presentation of dataset and pre-processing
   2. Feature distributions analysis
   3. Food trends and countries
-  4. MadMax analysis
-  5. Website and graphs
+  4. Textual description and results analysis
+  5. MadMax analysis
+  6. Website and graphs

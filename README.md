@@ -25,7 +25,6 @@ However, we thus don't directly have access to what users bought. So we must be 
 - Christina Mantonanaki:
   - Holiday data analysis
   - Word to vec
-  - Website
   - Topics extraction
   - Poster design
 - Florian Ravasi: 

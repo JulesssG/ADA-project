@@ -22,7 +22,12 @@ Concerning the actual reviews in the dataset, they contain all relevant informat
 However, we thus don't directly have access to what users bought. So we must be careful as we can't analyze what people purchased but only what they are reviewing. Also, the metadata is per item so it's not personalized by users.
 
 ## Contributions
-- Christina Manto:
+- Christina Mantonanaki:
+  - Holiday data analysis
+  - Word to vec
+  - Website
+  - Topics extraction
+  - poster design
 - Florian Ravasi: 
   - Causal impact
   - Topic extraction

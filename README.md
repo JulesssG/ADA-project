@@ -23,26 +23,27 @@ However, we thus don't directly have access to what users bought. So we must be 
 
 ## Contributions
 - Christina Mantonanaki:
-  - Holiday data analysis
-  - Word to vec
-  - Topics extraction
-  - Poster design
+  - First hands on with the dataset (pre-processing and experiment to extract topics using matching words)
+  - Tries with Word2Vec on examples
+  - Start of the website
+  - Start of poster design
 - Florian Ravasi: 
-  - Causal impact
-  - Topic extraction
-  - Word to vec
-  - NLTK, lemmatization
-  - Textual description and results analysis
+  - Event impact with bayesian structural time series
+  - Word frequencies to capture events coding and analysis
+  - Word2Vec coding and training on our dataset
+  - NLTK pipeline and lemmatization
 - Jules Gottraux:
   - Popular products extraction from time series
-  - Word to vec
-  - NLTK, lemmatization
-  - LDA
-  - Textual description and results analysis
+  - NLTK pipeline and lemmatization
+  - Experiement with LDA to extract topics
+  - Analysis and description of word frequency analysis
+  - Analysis and extraction of results from core analysis
+  - Sanitization of datasets (pre-processing)
 - Lucien Iseli:
+  - Basic structure of repo and notebook (basic functions etc ...)
   - Presentation of dataset and pre-processing
   - Feature distributions analysis
   - Food trends and countries
-  - Textual description and results analysis
-  - MadMax analysis
-  - Website and graphs
+  - Analysis and extraction of results from core analysis and anomalies
+  - Visualizations and plots
+  - Website

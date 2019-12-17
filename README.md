@@ -27,7 +27,7 @@ However, we thus don't directly have access to what users bought. So we must be 
   - Word to vec
   - Website
   - Topics extraction
-  - poster design
+  - Poster design
 - Florian Ravasi: 
   - Causal impact
   - Topic extraction

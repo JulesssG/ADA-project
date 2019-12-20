@@ -1,6 +1,9 @@
-# Amazon food data analysis
+# Impact of events and trends on users and products
 
 [Data Story](https://gorzen.github.io/Los-Moussaka-Data-Story/)
+
+
+[Milestone 3 - code](https://github.com/Gorzen/Los-Moussaka-ADA/blob/master/milestone_3.ipynb)
 
 ## Abstract
 Nowadays Amazon's popularity grows increasingly and becomes massive, it is ubiquitous in our era of cloud services and big data. Amazon has plenty of servers, buys big succesful companies such as Twitch, its CEO is the wealthiest man of our generation. But its underpinning is of course the website Amazon, thus making it a very interesting data provider.
@@ -26,9 +29,10 @@ However, we thus don't directly have access to what users bought. So we must be 
 ## Contributions
 - Christina Mantonanaki:
   - First hands on with the dataset (pre-processing and experiment to extract topics using matching words)
-  - Tries with Word2Vec on examples
-  - Start of the website
-  - Start of poster design
+  - Tries with Word2Vec on examples/dataset
+  - First analysis for holiday trends
+  - Contributed to the website
+  - Working on poster design
 - Florian Ravasi: 
   - Event impact with bayesian structural time series
   - Word frequencies to capture events coding and analysis

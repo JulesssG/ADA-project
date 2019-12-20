@@ -1,6 +1,7 @@
 # Impact of events and trends on users and products
 
 [Data Story](https://gorzen.github.io/Los-Moussaka-Data-Story/)
+[milestone 3](https://github.com/Gorzen/Los-Moussaka-ADA/blob/master/milestone_3.ipynb)
 
 ## Abstract
 Nowadays Amazon's popularity grows increasingly and becomes massive, it is ubiquitous in our era of cloud services and big data. Amazon has plenty of servers, buys big succesful companies such as Twitch, its CEO is the wealthiest man of our generation. But its underpinning is of course the website Amazon, thus making it a very interesting data provider.

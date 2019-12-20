@@ -1,4 +1,4 @@
-# Amazon food data analysis
+# Impact of events and trends on users and products
 
 [Data Story](https://gorzen.github.io/Los-Moussaka-Data-Story/)
 

@@ -1,9 +1,11 @@
 # Amazon food data analysis
 
+[Data Story](https://gorzen.github.io/Los-Moussaka-Data-Story/)
+
 ## Abstract
 Nowadays Amazon's popularity grows increasingly and becomes massive, it is ubiquitous in our era of cloud services and big data. Amazon has plenty of servers, buys big succesful companies such as Twitch, its CEO is the wealthiest man of our generation. But its underpinning is of course the website Amazon, thus making it a very interesting data provider.
 
-On Amazon you can buy almost any product nowadays, including food. Indeed you can buy your groceries on Amazon and you can see users's ratings of the food item you're looking at. This of course changes the consumer's behavior. However, how much of an impact does it have on the consumer? Does Amazon favor some diets over others? Are users's consumption affected over time or do they keep buying the same stuff? On Amazon you can also see what related products people tend to look at after looking at the one you're looking at. Again, this most likely has an impact on sales, but is it possible to quantify it?
+On Amazon you can buy almost any product nowadays, including food. Indeed you can buy your groceries on Amazon and you can see users's ratings of the food item you're looking at. This of course changes the consumer's behavior. However, how much of an impact does it have on the consumer? In particular we know that people tend to be deeply affected by group effects, such as festive events. Indeed, Christmas or Valentine's day have a big impact on sales, is it possible to quantify it using reviews? There also are food trends such as veganism or specific diets, can we also observe an increase here?
 
 ## Research questions
 The key idea would be to see how user's consumption behaves over time: how it follows trends, how seasons or events affect it. Thus, our purpose is to explore how topics, such as vegetarianism and veganism, and events are characterised on Amazon. To do this we will ask us: 

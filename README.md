@@ -1,9 +1,6 @@
-# Impact of events and trends on users and products
+# Impact of events and trends on Amazon
 
 [Data Story](https://gorzen.github.io/Los-Moussaka-Data-Story/)
-
-
-[Milestone 3 - code](https://github.com/Gorzen/Los-Moussaka-ADA/blob/master/milestone_3.ipynb)
 
 ## Abstract
 Nowadays Amazon's popularity grows increasingly and becomes massive, it is ubiquitous in our era of cloud services and big data. Amazon has plenty of servers, buys big succesful companies such as Twitch, its CEO is the wealthiest man of our generation. But its underpinning is of course the website Amazon, thus making it a very interesting data provider.
@@ -27,17 +24,12 @@ Concerning the actual reviews in the dataset, they contain all relevant informat
 However, we thus don't directly have access to what users bought. So we must be careful as we can't analyze what people purchased but only what they are reviewing. Also, the metadata is per item so it's not personalized by users.
 
 ## Contributions
-- Christina Mantonanaki:
-  - First hands on with the dataset (pre-processing and experiment to extract topics using matching words)
-  - Tries with Word2Vec on examples/dataset
-  - First analysis for holiday trends
-  - Contributed to the website
-  - Working on poster design
 - Florian Ravasi: 
   - Event impact with bayesian structural time series
   - Word frequencies to capture events coding and analysis
   - Word2Vec coding and training on our dataset
   - NLTK pipeline and lemmatization
+  - Contributed to the website
 - Jules Gottraux:
   - Popular products extraction from time series
   - NLTK pipeline and lemmatization
@@ -45,6 +37,7 @@ However, we thus don't directly have access to what users bought. So we must be 
   - Analysis and description of word frequency analysis
   - Analysis and extraction of results from core analysis
   - Sanitization of datasets (pre-processing)
+  - Contributed to the website
 - Lucien Iseli:
   - Basic structure of repo and notebook (basic functions etc ...)
   - Presentation of dataset and pre-processing
@@ -52,4 +45,9 @@ However, we thus don't directly have access to what users bought. So we must be 
   - Food trends and countries
   - Analysis and extraction of results from core analysis and anomalies
   - Visualizations and plots
-  - Website
+  - Website visualizations, structure and text
+- Christina Mantonanaki:
+  - First hands on with the dataset (pre-processing and experiment to extract topics using matching words)
+  - Tries with Word2Vec on examples/dataset
+  - First analysis for holiday trends
+  - Working on poster design

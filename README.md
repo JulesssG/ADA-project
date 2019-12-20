@@ -29,9 +29,10 @@ However, we thus don't directly have access to what users bought. So we must be 
 ## Contributions
 - Christina Mantonanaki:
   - First hands on with the dataset (pre-processing and experiment to extract topics using matching words)
-  - Tries with Word2Vec on examples
-  - Start of the website
-  - Start of poster design
+  - Tries with Word2Vec on examples/dataset
+  - First analysis for holiday trends
+  - Contributed to the website
+  - Working on poster design
 - Florian Ravasi: 
   - Event impact with bayesian structural time series
   - Word frequencies to capture events coding and analysis

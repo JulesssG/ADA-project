@@ -1,6 +1,8 @@
 # Impact of events and trends on users and products
 
 [Data Story](https://gorzen.github.io/Los-Moussaka-Data-Story/)
+
+
 [milestone 3](https://github.com/Gorzen/Los-Moussaka-ADA/blob/master/milestone_3.ipynb)
 
 ## Abstract

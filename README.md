@@ -1,3 +1,5 @@
+_Project done in the Applied Data Analysis course (CS-401) at EPFL
+
 # Impact of events and trends on Amazon
 
 [Data Story](https://gorzen.github.io/Los-Moussaka-Data-Story/)

@@ -1,4 +1,4 @@
-_Project done in the Applied Data Analysis course (CS-401) at EPFL
+_Project done in the Applied Data Analysis course (CS-401) at EPFL_
 
 # Impact of events and trends on Amazon
 
